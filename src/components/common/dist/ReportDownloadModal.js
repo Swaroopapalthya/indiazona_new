@@ -36,7 +36,7 @@ var ReportDownloadModal = function (_a) {
         setActiveTab(newValue);
     };
     var handleDownload = function () {
-        // Implement download logic based on activeTab and selected dates
+      
         onClose();
     };
     return (react_1["default"].createElement(StyledDialog, { open: open, onClose: onClose, maxWidth: "md" },
