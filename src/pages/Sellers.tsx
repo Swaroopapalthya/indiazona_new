@@ -24,7 +24,7 @@ import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 
-// Styled components
+
 const PageContainer = styled(Box)({
   padding:'24px',
 });
@@ -247,7 +247,7 @@ const Sellers: React.FC = () => {
     setEndDate(newValue);
   };
 
-  // Filtering
+
   const filteredSellers = sellersData.filter(seller =>
     seller.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
     seller.id.toLowerCase().includes(searchTerm.toLowerCase())
