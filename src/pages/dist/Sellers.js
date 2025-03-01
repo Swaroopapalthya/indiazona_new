@@ -8,7 +8,7 @@ var Close_1 = require("@mui/icons-material/Close");
 var DatePicker_1 = require("@mui/x-date-pickers/DatePicker");
 var LocalizationProvider_1 = require("@mui/x-date-pickers/LocalizationProvider");
 var AdapterDateFns_1 = require("@mui/x-date-pickers/AdapterDateFns");
-// Styled components
+
 var PageContainer = material_1.styled(material_1.Box)({
     padding: '24px'
 });
