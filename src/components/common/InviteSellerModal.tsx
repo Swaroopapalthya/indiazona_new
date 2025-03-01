@@ -30,7 +30,7 @@ const InviteSellerModal: React.FC<InviteSellerModalProps> = ({ open, onClose }) 
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(inviteLink);
-    // You can add a toast notification here
+   
   };
 
   return (
